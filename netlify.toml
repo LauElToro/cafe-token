@@ -7,3 +7,7 @@
 
 [build.lifecycle]
   postinstall = "sudo apt-get update && sudo apt-get install -y php8.1-gmp"
+  
+[submodule "vendor/symfony/polyfill-mbstring"]
+    path = vendor/symfony/polyfill-mbstring
+    url = https://github.com/symfony/polyfill-mbstring.git
