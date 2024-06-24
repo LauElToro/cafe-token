@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  max-width: 1920px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.SectionCompras {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+article, .Check {
+  flex: 1;
+  margin: 1%;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcafe {
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+h3 {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-size: 4vw; /* Usar unidades de viewport width */
+  font-weight: 600;
+  line-height: 1.2;
+  color: #55595c;
+}
+
+.btnBuy {
+  background-color: #3c995c;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px 20px;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  transition: box-shadow 0.3s;
+}
+
+.btnBuy:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+              rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.ValorT{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+/* Media queries para tamaños de pantalla */
+@media (max-width: 480px) {
+  article, .Check {
+    width: 100%;
+    margin: 2% 0;
+  }
+  
+  .btnBuy {
+    padding: 10px 15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  article, .Check {
+    width: 49%;
+    margin: 2% 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  article, .Check {
+    width: 32%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  article, .Check {
+    width: 24%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  article, .Check {
+    width: 23%;
+    margin: 1%;
+  }
+}

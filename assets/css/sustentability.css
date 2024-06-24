@@ -1,0 +1,829 @@
+
+/*Primera seccion del documento sustentability*/
+section{
+    overflow: hidden;
+}
+.sustentabilitySection1{
+    width: 100%;
+}
+.sustentabilitySection1 img{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+}
+.sustentabilitySection1 h2{
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    top: 35%;
+    left: 35%;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+/* Estilos para el segundo bloque del index */
+.secondContainer{
+    position: relative;
+    height: 1100px;
+}
+.superposicion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 500px;
+    background-color: #263C28CC;
+}
+.secondContainer video{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 35%;
+    height: 60%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.secondContainerInfo{
+    width: 50%;
+    margin-left: 45%;
+}
+.secondContainerInfo h5{
+    padding-top: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.secondContainerInfo h3{
+    font-family: "Livvic", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62.75px;
+    color: #000000;
+    text-align: left;
+}
+.secondContainerInfo h4{
+    font-family: "Livvic", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37.65px;
+    color: #F7C35F;
+    text-align: left;
+    padding-bottom: 3%;
+}
+.secondContainerInfo p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000;
+    text-align: left;
+}
+.secondContainerInfo button{
+    background-color: #F7C35F;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 50px 15px 50px;
+    margin-right: 75%;
+    margin-top: 8%;
+}
+.secondContainerInfo a{
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+/* Estilos para el tercear bloque del index */
+
+.thirdContainer{
+    margin-bottom: 10%;
+}
+.thirdContainerSubCont1{
+    width: 100%;
+    background-color: #263C28;
+    position: relative;
+}
+.thirdContainerSubCont1 h4{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    font-family: "Livvic", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #F7C35F;
+}
+.thirdContainerSubCont1 p{
+    width: 70%;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #857352;
+}
+.thirdContainerSubCont2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: -15%;
+}
+.thirdContainerBox{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+    z-index: 10;
+}
+.thirdContainerBox img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+} 
+.thirdContainerBox h4{
+    position: absolute;
+    top: 24%;
+    left: 24%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.thirdContainerBox p {
+    margin-top: 10%;
+    width: 90%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.thirdContainerBox2{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+    z-index: 15;
+}
+.thirdContainerBox2 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+} 
+.thirdContainerBox2 h4{
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.thirdContainerBox2 p {
+    margin-top: 10%;
+    width: 90%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.thirdContainerBox3{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+    z-index: 20;
+}
+.thirdContainerBox3 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+} 
+.thirdContainerBox3 h4{
+    position: absolute;
+    top: 24%;
+    left: 40%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.thirdContainerBox3 p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.thirdContainerSubCont3{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.thirdContainerBox4{ 
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+}
+.thirdContainerBox4 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+} 
+.thirdContainerBox4 h4{
+    position: absolute;
+    top: 22%;
+    left: 18%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.thirdContainerBox4 p {
+    margin-top: 10%;
+    width: 90%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.thirdContainerBox5{ 
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+}
+.thirdContainerBox5 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+} 
+.thirdContainerBox5 h4{
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.thirdContainerBox5 p {
+    margin-top: 10%;
+    width: 90%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.testimonials{
+    display: none;
+}
+
+/*Estilos para el cuarto bloque del index*/
+.fourthContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/GreenBg.jpeg");
+    background-size: 100% 100%;
+}
+.fourthContainer video{
+    margin-top: 15%;
+    width: 600px;
+    height: 450px;
+}
+.fourthContainerSubCont1{
+    margin-bottom:  5%;
+}
+.fourthContainerSubCont2{
+    width: 60%;
+    margin-right: 5%;
+}
+.fourthContainerSubCont2 h4{
+    text-align: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Livvic", sans-serif;
+}
+.fourthContainerSubCont2 p{
+    text-align: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+/*Estilos para el quinto bloque del index */
+
+.fifthContainer{
+    margin-bottom: 10%;
+}
+.fifthContainerSubCont1{
+    background-color: #FBE0AB;
+    height: 85vh;
+    position: relative;
+}
+.h4Box{
+    padding-top: 5%;
+    font-family: "Livvic", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #000;
+}
+.fifthContainerSubCont2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: -25%;
+}
+.fifthContainerBox{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #684500;
+    width: 25%;
+    z-index: 10;
+}
+.contBoxH4 {
+    position: absolute;
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff;  
+  }
+.fifthContainerBox img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+} 
+.fifthContainerBox p {
+    margin-top: 5%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox2{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #684500;
+    width: 25%;
+    z-index: 15;
+}
+.fifthContainerBox2 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+}
+.fifthContainerBox2 p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox3{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #684500;
+    width: 25%;
+    z-index: 20;
+}
+.fifthContainerBox3 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+} 
+.fifthContainerBox3 p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+/*Estilos para el sexto bloque de sustentabilidad*/
+#hero3{
+    min-height: 100vh;
+    position: relative;
+}
+#hero3 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+.capa3{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 50%;
+    height: 75%;
+    background: linear-gradient(90deg, rgba(51, 75, 53, 0.7) 0%, rgba(0,0,0,0) 100%);
+}
+.sixthContainer{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+.sixthContainerInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    flex-direction: row;
+}
+.sixthContainerInfo p{
+    width: 50%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.65px;
+}
+.sixthContainerSubCont{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sixthContainerSubCont button{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sixthContainerSubCont h4{
+    margin-left: 15%;
+    color: #F7C35F;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Livvic", sans-serif;
+}
+
+
+/*Estilos del formulario*/
+
+    .contactUs{
+        margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .contactUsInfo{
+        width: 40%;
+        text-align: left;
+    }
+    .contactUsInfo h4{
+        font-family: "Montserrat", sans-serif;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 800;
+        padding-bottom: 5%;
+        color: #000;
+    }
+    .contactUsInfo h5{
+        font-family: "Livvic", sans-serif;
+        text-align: left;
+        font-weight: 700;
+        font-size: 50px;
+        color: #000;
+    }
+    .contactUsInfo p{
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #000;
+    }
+    .contactUsInfo ul p{
+        text-align: left;
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
+    }
+    .contactUsInfo h6{
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+    }
+    .contactUsForm{
+        margin-top: 10%;
+        width: 40%;
+    }
+    .inputCont{
+        padding-bottom: 5%;
+    }
+    .inputText{
+        background-color: #263C28;
+        width: 80%;
+        text-align: left;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+    #message{
+        background-color: #263C28;
+        width: 80%;
+        height: 140px;
+        text-align: left;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+    }
+    #message::placeholder{
+        color: #fff;
+    }
+    .inputBtn{
+        background-color: #F7C35F;
+        margin-right: 61%;
+        border: none;
+        border-radius: 20px;
+        padding: 15px;
+        font-family: "Livvic", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .inputText::placeholder{
+        color: #fff;
+    }
+
+    @media screen and (max-width: 1199px){
+/*1er seccion de sustentabilidad mobile*/
+    .sustentabilitySection1 h2{
+        left: 22%;
+    }
+/*2da seccion de sustentabilidad mobile*/
+    .superposicion{
+        width: 30%;
+        height: 40%;
+    }
+    .secondContainer video{
+        width: 35%;
+        height: 50%;
+    }
+/*3er seccion de sustentabilidad mobile*/
+    .testimonials{
+        display: flex;
+    }
+    .thirdContainerSubCont1 h4{
+        left: 25%;
+    }
+     .thirdContainerSubCont2{
+        display: none;
+     }   
+     .thirdContainerSubCont3{
+        display: none;
+     }
+
+/*4ta seccion de sustentabilidad mobile*/
+     .fourthContainer{
+        flex-direction: column;
+     }
+     .fourthContainerSubCont1 img{
+        display: none;
+     }
+
+/*5ta seccion de sustentabilidad mobile*/
+     .fifthContainerSubCont2{
+        flex-direction: column;
+        margin-top: -45%;
+     }
+.contBoxH4{
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  width: 100%;
+  font-size: 45px;
+  transform: translate(-50%, -50%); 
+  border-radius: 5px;
+}  
+.fifthContainerBox{
+    position: relative;
+    height: 50%;
+    width: 85%;
+    z-index: 10;
+}
+.fifthContainerBox p {
+    margin-top: 5%;
+    width: 80%;
+    font-size: 24px;
+}    
+.fifthContainerBox2{
+    position: relative;
+    height: 50%;
+    width: 85%;
+    z-index: 10;
+}
+.fifthContainerBox2 p {
+    margin-top: 5%;
+    width: 80%;
+    font-size: 24px;
+}    
+.fifthContainerBox3{
+    height: 50%;
+    width: 85%;
+    z-index: 10;
+}
+.fifthContainerBox3 p {
+    margin-top: 5%;
+    width: 80%;
+    font-size: 24px;
+}
+/*Formulario del index mobile*/
+.contactUsForm{
+    width: 50%;
+}
+
+.inputText{
+    width: 90%;
+}
+#message{
+    width: 90%;
+}
+
+    }
+
+@media screen and (max-width: 991px){     
+        .sustentabilitySection1 h2{
+            left: 15%;
+        }
+/*2da seccion de sustentabilidad mobile*/ 
+
+        .secondContainerInfo{
+            width: 100%;
+            margin-left: 0%;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+        .secondContainerInfo h5{
+            text-align: center;
+        }
+        .secondContainerInfo h3{
+            text-align: center;
+        }
+        .secondContainerInfo h4{
+            text-align: center;
+        }
+        .secondContainerInfo p{
+            text-align: center;
+        }
+        .secondContainerInfo button{
+            width: 20%;
+            margin-left: 40%;
+        }
+        .superposicion{
+            display: none;
+        }
+        .secondContainer video{
+            display: none;
+        }
+/*3er seccion de sustentabilidad mobile*/        
+        .thirdContainerSubCont1 h4{
+            left: 18%;
+        }
+/*Formulario del index mobile*/
+    .contactUsForm{
+        width: 50%;
+    }
+    
+    .inputText{
+        width: 90%;
+    }
+    #message{
+        width: 90%;
+    }
+    .sixthContainerInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sixthContainerInfo p{
+        width: 100%;
+        font-size: 25px;
+    }   
+    .sixthContainerSubCont h4{
+        font-size: 22px;
+    }
+
+    }
+
+@media screen and (max-width: 767px){ 
+    
+    .sustentabilitySection1 h2{
+        left: 10%;
+        font-size: 50px;
+    }      
+    .thirdContainerSubCont1 h4{
+        left: 10%;
+        font-size: 40px;
+    }
+    .thirdContainerSubCont1 p{
+        font-size: 26px;
+    }
+    .contactUs{
+        flex-direction: column;
+    }
+    .contactUsInfo h4{
+        text-align: center;
+    }
+    .contactUsInfo h5{
+        text-align: center;
+        font-size: 35px;
+    }
+    .contactUsInfo ul{
+        display: none;
+    }
+    .contactUsInfo p{
+        display: none;
+    }
+    .contactUsForm{
+        width: 90%;
+        align-items: center;
+    }
+    .inputBtn{
+        margin-right: 0%;
+    }
+    .sixthContainerInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sixthContainerInfo p{
+        width: 100%;
+        font-size: 20px;
+    }   
+    .sixthContainerSubCont h4{
+        font-size: 22px;
+    }
+    .secondContainerInfo button{
+        text-align: center;
+        padding: 5px 25px 5px 25px;
+    }
+}
+@media screen and (max-width: 480px){
+    .sustentabilitySection1 h2{
+        left: 4%;
+        font-size: 50px;
+    }   
+    .sixthContainerSubCont h4{
+        font-size: 20px;
+    }
+    .sixthContainerSubCont img{
+        width: 100px;
+        height: 100px;
+    }
+    .secondContainerInfo button{
+        text-align: center;
+        padding: 5px 25px 5px 25px;
+    }
+    .secondContainerInfo a{
+        width: 100%;
+    }
+}

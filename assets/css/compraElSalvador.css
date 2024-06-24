@@ -1,0 +1,238 @@
+
+.firstContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #FFF3DB;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    margin: 5%;
+    padding-top: 2%;
+}
+.elSalvadorH3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+    color: #FFBA35;
+    padding-left: 5%;
+}
+.firstContainerSubCont1{
+    width: 50%;
+}
+.firstContainerSubCont1 img{
+    width: 70%;
+}
+.firstContainerSubCont2{
+    width: 50%;
+}
+.subContImg{
+    width: 100%;
+}
+.subContText{
+    width: 100%;
+}
+.subContText h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+    text-align: left;
+}
+.subContText h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+    color: #000;
+}
+.subContText p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    text-align: left;
+}
+.subContText button{
+    padding: 15px 35px 15px 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F7C35F;
+    cursor: pointer;
+    float: left;
+}
+.subContText button a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.subContInp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.subContInp input{
+    width: 15%;
+}
+.firstContainerSubCont3{
+    display: none;
+}
+/*slider*/
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding: 0 15px;
+}
+.testimonials{
+    padding: 100px 0;
+}
+.testimonials-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: none;
+    border-radius: 30px;
+}
+.testimonials-item .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials-item .info img{
+    width: 80%;
+}
+/*More products section*/
+.h3Products{
+    font-family: "Livvic", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #000;
+    text-align: left;
+    padding-left: 5%;
+}
+.moreProductsSection{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #CEDBCF;
+}
+.moreProductsItem{
+    display: flex;
+    flex-direction: column;
+}
+.moreProductsItem h6{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.moreProductsItem h5{
+    font-family: "Livvic", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+.moreProductsItem button{
+    background-color: #F7C35F;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 15px 0px;
+}
+.moreProductsItem button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 15px;
+}
+.subContTextMobile{
+    display: none;
+}
+@media screen and (max-width: 1199px) {
+    .subContTextMobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .firstContainerSubCont1{
+        display: none;
+    }
+    .subContText h4{
+        display: none;
+    }
+    .subContText h5{
+        display: none;
+    }
+    .subContTextMobile h4{
+        display: flex;
+    }
+    .subContTextMobile h5{
+        display: flex;
+    }
+    .subContTextMobileImg img{
+        width: 150px;
+        height: 150px;
+    }
+    .firstContainerSubCont2{
+        width: 80%;
+    }
+    .moreProductsSection{
+        flex-direction: column;
+    }
+    .moreProductsSection{
+        margin-top: 15%;
+    }
+    .moreProductsItem{
+        margin-bottom: 10%;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .testimonials-item .info img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:767px) {  
+    .subContTextMobile h4{
+        display: flex;
+        font-size: 38px;
+    }
+    .subContTextMobile h5{
+        display: flex;
+        font-size: 38px;
+    }
+    .subContTextMobileImg img{
+        width: 100px;
+        height: 100px;
+    }
+    .moreProductsSection{
+        margin-top: 15%;
+    }
+    .moreProductsItem{
+        align-items: center;
+        margin-bottom: 15%;
+    }
+    .moreProductsItem img{
+        width: 300px;
+        height: 300px;
+    }
+    .testimonials-item .info img{
+        width: 95%;
+    }
+}

@@ -1,0 +1,488 @@
+.aboutUsSection1{
+    width: 100%;
+    position: relative;
+}
+.aboutUsSection1 img{
+    display: block;
+    width: 100%;
+    height: 55vh;
+}
+.aboutUsSection1 h2{
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    top: 35%;
+    left: 38%;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+/*segundo contenedor de aboutus*/
+
+.secondContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.secondContainerSubCont1{
+    width: 50%;
+    height: 550px;
+    margin-top: 5%;
+}
+.secondContainerSubCont1 video{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.secondContainerSubCont2{
+    padding-top: 5%;
+    width: 50%;
+}
+.secondContainerSubCont2 h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+    text-align: left;
+    padding-left: 15%;
+}
+.secondContainerSubCont2 h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 15%;
+}
+.secondContainerSubCont2 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 15%;
+}
+.secondContainerSubCont2 button{
+    background-color: #F7C35F;
+    padding: 15px 50px 15px 50px;
+    border-radius: 20px;
+    border: none;
+    float: left;
+    margin-left: 15%;
+    cursor: pointer;
+}
+.secondContainerSubCont2 a{
+    color: #000;
+    text-decoration: none;
+}
+/*Tercera seccion de aboutUS*/
+.thirdContainer{
+    background-color: #FBE0AB80;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.thirdContainerSubCont1{
+    position: relative;
+}
+.aboutUsImg{
+    height: 800px;
+    display: block;
+}
+.aboutUsH4{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+}
+.thirdContainerSubCont2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdContainerUl{
+    width: 80%;
+    padding-top: 5%;
+}
+.thirdContainerUl h5{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+.thirdContainerUl p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+/*¨cuarto contenedor de aboutus*/
+
+.fourthContainer{
+    margin-bottom: 10%;
+}
+.fourthContainerSubCont1{
+    background-color: #FBE0AB;
+    height: 85vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.fourthContainerSubCont1 p{
+    width: 60%;
+    margin-left: 20%;
+}
+.h4Box{
+    margin-left: 20%;
+    width: 60%;
+    padding-top: 5%;
+    font-family: "Livvic", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #000;
+}
+.fourthContainerSubCont2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: -25%;
+}
+.fourthContainerBox{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #684500;
+    width: 35%;
+    z-index: 10;
+}
+.contBoxH4 {
+    position: absolute;
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff;  
+  }
+.fourthContainerBox img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+} 
+.fourthContainerBox p {
+    margin-top: 5%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fourthContainerBox2{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #684500;
+    width: 35%;
+    z-index: 15;
+}
+.fourthContainerBox2 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+}
+.fourthContainerBox2 p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*Estilos del formulario*/
+.contactUs{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.contactUsInfo{
+    width: 40%;
+    text-align: left;
+}
+.contactUsInfo h4{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+.contactUsInfo h5{
+    font-family: "Livvic", sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+}
+.contactUsInfo p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.contactUsInfo ul p{
+    text-align: left;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contactUsInfo h6{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contactUsForm{
+    margin-top: 10%;
+    width: 40%;
+}
+.inputCont{
+    padding-bottom: 5%;
+}
+.inputText{
+    background-color: #263C28;
+    width: 80%;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+#message{
+    background-color: #263C28;
+    width: 80%;
+    height: 140px;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+#message::placeholder{
+    color: #fff;
+}
+.inputBtn{
+    background-color: #F7C35F;
+    margin-right: 61%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.inputText::placeholder{
+    color: #fff;
+}
+/*Estilos del quinto container*/
+
+.fifthContainer{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.fifthContainerSubCont1{
+    width: 100%;
+}
+.fifthContainerSubCont1 h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.fifthContainerSubCont1 h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #000;
+}
+.fifthContainerSubCont1 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fifthContainerSubCont2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-left: 8%;
+    width: 100%;
+}
+.fifthContainerImgCont {
+    position: relative;
+    width: 100%; /* Ajusta el tamaño de los contenedores */
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 45%; /* Relación de aspecto 4:3 */
+}
+.fifthContainerImgCont img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+}
+.fifthContainerImgCont img:first-child {
+    z-index: 1;
+    opacity: 1;
+}
+.fifthContainerImgCont img:last-child {
+    z-index: 0;
+    opacity: 0;
+}
+.fifthContainerImgCont:hover img:first-child{
+    opacity: 0;
+}
+.fifthContainerImgCont:hover img:last-child {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1199px) {
+    .thirdContainer{
+        flex-direction: column;
+    }
+    .aboutUsH4{
+        top: 45%;
+        left: 0%;
+    }
+    section{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .aboutUsSection1 h2{
+        top: 35%;
+        left: 30%;
+    }
+    .secondContainer{
+        flex-direction: column-reverse;
+    }
+    .secondContainerSubCont1{
+        width: 100%;
+        height: 550px;
+        margin-top: 5%;
+    }
+    .secondContainerSubCont1 video{
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .secondContainerSubCont2{
+        padding-top: 5%;
+        width: 90%;
+    }
+    .secondContainerSubCont2 h4{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .secondContainerSubCont2 h3{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .secondContainerSubCont2 p{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .secondContainerSubCont2 button{
+        margin-left: 0%;
+        float: none;
+    }
+    .fourthContainerSubCont2{
+        flex-direction: column;
+    }
+    .fourthContainerSubCont2{
+        margin-top: -45%;
+    }
+    .fourthContainerBox{
+        width: 75%;
+    }
+    .fourthContainerBox2{
+        width: 75%;
+        margin-top: 5%;
+    }
+    .inputBtn{
+        margin-right: 0%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .fifthContainerSubCont2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .fifthContainerImgCont img {
+        width: 100%;
+    }
+    .aboutUsImg{
+        width: 100%;
+    }
+    .contactUs{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactUsInfo p,
+    .contactUsInfo ul{
+        display: none;
+    }
+    .contactUsForm{
+        width: 100%;
+    }
+    .contactUsInfo{
+        width: 100%;
+    }
+    .contactUsInfo h4{
+        text-align: center;
+        font-size: 30px;
+    }
+    .contactUsInfo h5{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .aboutUsSection1 h2{
+        top: 40%;
+        left: 25%;
+        font-size: 50px;
+    }
+}
+@media screen  and (max-width: 480px) {
+    .aboutUsSection1 h2{
+        top: 40%;
+        left: 20%;
+        font-size: 50px;
+    }   
+}

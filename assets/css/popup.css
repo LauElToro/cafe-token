@@ -1,0 +1,117 @@
+.popupOverlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2500;
+}
+.closeButton{
+    position: absolute;
+    top: 0;
+    left: 85%;
+}
+.popupCont{
+    background-color: #fff;
+    width: 500px;
+    min-height: 100px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #263C28;
+    padding: 2%;
+    border: #F7C35F 2px solid;
+
+}
+.popupCont h1,
+.popupCont p,
+.popupCont label{
+    width: 100%;
+    color: #F7C35F;
+    font-family: "Livvic", sans-serif;
+}
+.popupCont input{
+    text-align: left;
+    background-color: #F7C35F;
+    border: none;
+    border-radius: 20px;
+    padding-left: 5%;
+}
+.popupCont input{
+    border: none;
+}
+.popupCont a{
+    color: #fff;
+}
+.popupCont a:hover{
+    color: #fff;
+    transform: scale(1.5);
+}
+.popupCont button{
+    margin-top: 5%;
+    background-color: #F7C35F;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+}
+.popupCont button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+}
+.popupCont2{
+    background-color: #fff;
+    width: 500px;
+    min-height: 100px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #263C28;
+    padding: 2%;
+    border: #F7C35F 2px solid;
+    display: none;
+    flex-direction: column;
+
+}
+.popupCont2 h1,
+.popupCont2 p,
+.popupCont2 label{
+    width: 100%;
+    color: #F7C35F;
+    font-family: "Livvic", sans-serif;
+}
+.popupCont2 input{
+    text-align: left;
+    background-color: #F7C35F;
+    border: none;
+    border-radius: 20px;
+    padding-left: 5%;
+}
+.popupCont2 input{
+    border: none;
+}
+.popupCont2 a{
+    color: #fff;
+}
+.popupCont2 button{
+    margin-top: 5%;
+    background-color: #F7C35F;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+}
+.popupCont2 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+}

@@ -1,0 +1,35 @@
+
+
+.registro h1{
+    margin-top: 1%;
+}
+
+.registro form{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registro input{
+    margin-top: 1%;
+    border: solid #000 2px;
+    border-radius: 5px;
+}
+
+.registro button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5px 8px;
+    background-color: #13232E;
+    border: 1px solid #58e0a1;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.registro button:hover{
+    background-color: #58e0a1; 
+    color: #000; 
+    text-decoration: none;
+}

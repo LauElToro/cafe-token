@@ -1,0 +1,379 @@
+
+.tokenShopSection1{
+    width: 100%;
+}
+.tokenShopSection1 img{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+}
+.tokenShopSection1 h2{
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    top: 35%;
+    left: 35%;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*Segunda seccion de tokenshop*/
+.section2 h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.buttonsCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.buttonsSubCont1 a,
+.buttonsSubCont2 a{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+.buttonsSubCont1 h4,
+.buttonsSubCont2 h4{
+    font-weight: 700;
+    font-size: 50px;
+}
+/*seccion de Norte America*/
+.countriesCont1{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #CEDBCF;
+}
+.countriesCont1 h6{
+    padding-top: 5%;
+}
+.countriesCont1 h4{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countriesFlags1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+/*seccion de Centro America*/
+
+.countriesCont2{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #A5A794;
+}
+.countriesCont2 h6{
+    padding-top: 5%;
+}
+.countriesCont2 h4{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countriesFlags2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+/*seccion de Sur America*/
+
+.countriesCont3{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #FBE0AB;
+}
+.countriesCont3 h6{
+    padding-top: 5%;
+}
+.countriesCont3 h4{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countriesFlags3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+/*seccion de Europa*/
+
+.countriesCont4{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #D5E2FF;
+}
+.countriesCont4 h6{
+    padding-top: 5%;
+}
+.countriesCont4 h4{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countriesFlags4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+/*seccion de Africa*/
+
+.countriesCont5{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #D0FFD480;
+}
+.countriesCont5 h6{
+    padding-top: 5%;
+}
+.countriesCont5 h4{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countriesFlags5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+/*seccion de Asia*/
+
+.countriesCont6{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #FFDBDB80;
+}
+.countriesCont6 h6{
+    padding-top: 5%;
+}
+.countriesCont6 h4{
+    font-family: "Livvic", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countriesFlags6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+/*Estilos del form*/
+.contactUs{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.contactUsInfo{
+    width: 40%;
+    text-align: left;
+}
+.contactUsInfo h4{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+.contactUsInfo h5{
+    font-family: "Livvic", sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+}
+.contactUsInfo p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.contactUsInfo ul p{
+    text-align: left;
+    font-family: "Livvic", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contactUsInfo h6{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contactUsForm{
+    margin-top: 10%;
+    width: 40%;
+}
+.inputCont{
+    padding-bottom: 5%;
+}
+.inputText{
+    background-color: #263C28;
+    width: 80%;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+#message{
+    background-color: #263C28;
+    width: 80%;
+    height: 140px;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+#message::placeholder{
+    color: #fff;
+}
+.inputBtn{
+    background-color: #F7C35F;
+    margin-right: 61%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.inputText::placeholder{
+    color: #fff;
+}
+
+@media screen and (max-width: 1199px) {
+    section{
+        overflow: hidden;
+    }
+    .buttonsCont{
+        flex-direction: column;
+    }
+    .countriesFlags1{
+        display: flex;
+        flex-direction: column;
+    }
+    .countriesFlags2{
+        display: flex;
+        flex-direction: column;
+    }
+    .countriesFlags3{
+        display: flex;
+        flex-direction: column;
+    }
+    .countriesFlags4{
+        display: flex;
+        flex-direction: column;
+    }
+    .countriesFlags5{
+        display: flex;
+        flex-direction: column;
+    }
+    .countriesFlags6{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputBtn{
+        margin-right: 61%;
+    }
+    .tokenShopSection1 h2{   
+    top: 30%;
+    left: 25%;
+    font-size: 60px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .tokenShopSection1 h2{   
+    top: 30%;
+    left: 25%;
+    font-size: 60px;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    
+    .contactUs{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactUsInfo p,
+    .contactUsInfo ul{
+        display: none;
+    }
+    .contactUsForm{
+        width: 100%;
+    }
+    .contactUsInfo{
+        width: 100%;
+    }
+    .contactUsInfo h4{
+        text-align: center;
+        font-size: 30px;
+    }
+    .contactUsInfo h5{
+        text-align: center;
+        font-size: 50px;
+    }
+    .inputBtn{
+        margin-right: 0%;
+    }
+    .tokenShopSection1 h2{   
+    top: 30%;
+    left: 15%;
+    font-size: 60px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .buttonsSubCont1 img{
+        width: 80%;
+    }
+    .buttonsSubCont2 img{
+        width: 80%;
+    }
+    .tokenShopSection1 h2{   
+    top: 30%;
+    left: 8%;
+    font-size: 50px;
+    }
+}

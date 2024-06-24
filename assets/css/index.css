@@ -1,0 +1,1049 @@
+
+/* Estilos para el "mainInfo" primera seccion del index */
+section{
+    overflow: hidden;
+}
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+#hero video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(51, 75, 53, 0.8) 0%, rgba(0,0,0,0) 100%);
+}
+.mainInfo{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.mainInfoContainer{
+    margin-top: 10%;
+}
+.mainH4{
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    display: inline-block;
+    margin-right: 68%;
+}
+.mainH4 img{
+    position: absolute;
+    top: 75%;
+    left: -25%;
+}
+.mainH4 h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.mainH1{
+    width: 100%;
+    margin-top: 2%;
+    font-family: "Livvic", sans-serif;
+}
+.mainH1 h1{
+    text-align: left;
+    margin-left: 10%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75.2px;
+}
+.colored-heading::before {
+    content: "LEADER IN FINANCIAL INNOVATION ";
+    color: #F7C35F;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75.2px;
+  }
+  .mainBtn{
+    font-family: "Livvic", sans-serif;
+    margin-top: 2%;
+    margin-right: 65%;
+  }
+  .mainBtn button{
+    background-color: #F7C35F;
+    border-radius: 20px;
+    border: none;
+    gap: 10px;
+    padding: 15px 30px 15px 30px;
+  }
+  .mainBtn a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+/* Estilos para el segundo bloque del index */
+.secondContainer{
+    position: relative;
+    height: 1100px;
+}
+.superposicion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+    background-color: #263C28CC;
+}
+.secondContainer video{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 30%;
+    height: 50%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.secondContainerInfo{
+    width: 50%;
+    margin-left: 45%;
+}
+.secondContainerInfo h5{
+    padding-top: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.secondContainerInfo h3{
+    font-family: "Livvic", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62.75px;
+    color: #000000;
+    text-align: left;
+}
+.secondContainerInfo h4{
+    font-family: "Livvic", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37.65px;
+    color: #F7C35F;
+    text-align: left;
+    padding-bottom: 3%;
+}
+.secondContainerInfo p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000;
+    text-align: left;
+}
+.secondContainerInfo button{
+    background-color: #F7C35F;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 50px 15px 50px;
+    margin-right: 75%;
+    margin-top: 8%;
+}
+.secondContainerInfo a{
+    font-family: "Livvic", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+/* Estilos para el tercear bloque del index */
+#hero2{
+    min-height: 100vh;
+    position: relative;
+}
+#hero2 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.capa2{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 50%;
+    height: 60%;
+    background: linear-gradient(90deg, rgba(51, 75, 53, 0.7) 0%, rgba(0,0,0,0) 100%);
+}
+.thirdContainer{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+.thirdContainerInfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    flex-direction: row;
+}
+.thirdContainerInfo p{
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.65px;
+}
+.thirdContainerSubCont{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.thirdContainerSubCont button{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.thirdContainerSubCont h4{
+    margin-left: 15%;
+    color: #F7C35F;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Livvic", sans-serif;
+}
+
+/*Estilos para el cuarto bloque del index */
+.fourthContainer{
+    background-color: #CEDBCF;
+}
+.fourthContainerTittle h4{
+    padding-top: 5%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.fourthContainerTittle h3{
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62.75px;
+    color: #000000;
+}
+.fourthContainerInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.infoCont2{
+    display: inline-block;
+    position: relative;
+}
+.infoCont3{
+    display: inline-block;
+    position: relative;
+}
+.infoCont{
+    display: inline-block;
+    position: relative;
+}
+.infoCont img{
+    border-radius: 20px;
+}
+.infoCont2 img{
+    border-radius: 20px;
+}
+.infoCont3 img{
+    border-radius: 20px;
+}
+.infoCont h6{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.38px;
+    color: #fff;
+    top: 40%;
+    left: 35%;
+    transition: opacity 0.5s ease;
+}
+.infoCont h5{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.57px;
+    top: 50%;
+    left: 23%;
+    transition: 0.5s ease;
+}
+.infoCont button{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    transition: 0.5s ease;
+    font-family: "Livvic", sans-serif;
+    padding: 15px 35px 15px 35px;
+    font-weight: 500;
+    font-size: 1px;
+    border-radius: 20px;
+    background-color: #F7C35F;
+    border: none;
+}
+.infoCont button:hover{
+    background-color: #fff;
+}
+.infoCont button a:hover{
+    color: #6D8C54;
+}
+.infoCont button a{
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 15px;
+}
+.infoCont2{
+    display: inline-block;
+    position: relative;
+}
+.infoCont2 h6{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.38px;
+    color: #fff;
+    top: 40%;
+    left: 31%;
+    transition: opacity 0.5s ease;
+}
+.infoCont2 h5{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.57px;
+    top: 50%;
+    left: 23%;
+    transition: 0.5s ease;
+}
+.infoCont2 button{
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    transition: 0.5s ease;
+    font-family: "Livvic", sans-serif;
+    padding: 15px 35px 15px 35px;
+    font-weight: 500;
+    font-size: 1px;
+    border-radius: 20px;
+    background-color: #F7C35F;
+    border: none;
+}
+.infoCont2 button:hover{
+    background-color: #fff;
+}
+.infoCont2 button a:hover{
+    color: #6D8C54;
+}
+.infoCont2 button a{
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 15px;
+}
+.infoCont3{
+    display: inline-block;
+    position: relative;
+}
+.infoCont3 h6{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24.38px;
+    color: #fff;
+    top: 40%;
+    left: 35%;
+    transition: opacity 0.5s ease;
+}
+.infoCont3 h5{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.57px;
+    top: 50%;
+    left: 23%;
+    transition: 0.5s ease;
+}
+.infoCont3 button{
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    transition: opacity 0.5s ease;
+    font-family: "Livvic", sans-serif;
+    padding: 15px 35px 15px 35px;
+    font-weight: 500;
+    font-size: 1px;
+    border-radius: 20px;
+    background-color: #F7C35F;
+    border: none;
+}
+.infoCont3 button:hover{
+    background-color: #fff;
+}
+.infoCont3 button a:hover{
+    color: #6D8C54;
+}
+.infoCont3 button a{
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 15px;
+}
+.fourthContainerTokens{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+.fourthContainerTokensSubCont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+}
+/*Estilos para el quinto bloque del index */
+
+.fifthContainer{
+    margin-bottom: 10%;
+}
+.fifthContainerSubCont1{
+    background-color: #2D442F;
+    position: relative;
+}
+.h4Box{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-family: "Livvic", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #F7C35F;
+}
+.fifthContainerSubCont2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: -15%;
+}
+.fifthContainerBox{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+    z-index: 10;
+}
+.fifthContainerBox img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+} 
+.fifthContainerBox h4{
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox2{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+    z-index: 15;
+}
+.fifthContainerBox2 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: relative;
+} 
+.fifthContainerBox2 h4{
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox2 p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox3{
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D442F;
+    width: 25%;
+    z-index: 20;
+}
+.fifthContainerBox3 img{
+    display: inline-block;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+} 
+.fifthContainerBox3 h4{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    font-family: "Livvic", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fifthContainerBox3 p {
+    margin-top: 10%;
+    width: 80%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+.fourthContainerTokensSubCont {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .fourthContainerTokensSubCont a {
+    position: relative; 
+    display: inline-block; 
+  }
+  
+  .fourthContainerTokensSubCont a img {
+    display: block; 
+    width: 100%; 
+  }
+  
+  .fourthContainerTokensSubCont a h5{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    position: absolute; 
+  }
+  .fourthContainerTokensSubCont a h4{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    position: absolute; 
+  }
+  .fourthContainerTokensSubCont a button {
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    border: none;
+    transform: translate(-50%, -50%);
+    background-color: #F7C35F; 
+    color: #000;
+    font-size: 15px;
+  }
+
+/*Estilos para el sexto bloque del index */
+    .contactUs{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .contactUsInfo{
+        width: 40%;
+        text-align: left;
+    }
+    .contactUsInfo h4{
+        font-family: "Montserrat", sans-serif;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 800;
+        padding-bottom: 5%;
+    }
+    .contactUsInfo h5{
+        font-family: "Livvic", sans-serif;
+        text-align: left;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .contactUsInfo p{
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .contactUsInfo ul p{
+        text-align: left;
+        font-family: "Livvic", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .contactUsInfo h6{
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .contactUsForm{
+        margin-top: 10%;
+        width: 40%;
+    }
+    .inputCont{
+        padding-bottom: 5%;
+    }
+    .inputText{
+        background-color: #263C28;
+        width: 80%;
+        text-align: left;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+    #message{
+        background-color: #263C28;
+        width: 80%;
+        height: 140px;
+        text-align: left;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+    }
+    #message::placeholder{
+        color: #fff;
+    }
+    .inputBtn{
+        background-color: #F7C35F;
+        margin-right: 61%;
+        border: none;
+        border-radius: 20px;
+        padding: 15px;
+        font-family: "Livvic", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .inputText::placeholder{
+        color: #fff;
+    }
+/*Estilos de la septima parte del index*/
+
+.seventhContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    background-image: url("../img/CafeTokenBg.png");
+    margin-bottom: -0.7%;
+    height: 30vh;
+}
+.seventhSubCont1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.seventhSubCont1 h4{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 50px;
+    color: #344C31;
+}
+.seventhSubCont2 button{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-family: "Livvic", sans-serif;
+    background-color: #F7C35F;
+    font-size: 15px;
+}
+.seventhSubCont2 a{
+    color: #1A1A1A;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1199px) {
+    .superposicion{
+        width: 30%;
+        height: 40%;
+    }
+    .secondContainer video{
+        width: 35%;
+        height: 50%px;
+    }
+
+/*Cuarto contenedor del index mobile*/
+    .fourthContainerInfo{
+        flex-direction: column;
+    }
+    .infoCont{
+        padding-bottom: 5%;
+    }
+    .infoCont2{
+        padding-bottom: 5%;
+    }
+    .infoCont3{
+        padding-bottom: 5%;
+    }
+    .fourthContainerTokens{
+        margin-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+    .fourthContainerTokensSubCont{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+/*Quinto contenedor del index mobile*/
+    .fifthContainerSubCont2{
+        flex-direction: column;
+        margin-top: -35%;
+    }
+    .fifthContainerBox{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .fifthContainerBox2{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .fifthContainerBox3{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+    }.h4Box{
+        top: 10%;
+        left: 30%;
+    }
+
+    .fifthContainerBox h4{
+        top: 28%;
+        left: 35%;
+        font-size: 48px;
+    }
+    .fifthContainerBox2 h4{
+        top: 28%;
+        left: 30%;
+        font-size: 48px;
+    }
+    .fifthContainerBox3 h4{
+        top: 28%;
+        left: 12%;
+        font-size: 48px;
+    }
+    .fourthContainerTokensSubCont {
+        flex-direction: column;
+      }
+}
+
+@media screen and (max-width:991px) {
+/*Primer contenedor del index mobile*/
+    .mainBtn{
+        margin-right: 52%;
+    }
+
+/*Segundo contenedor del index mobile*/
+    .superposicion{
+        display: none;
+    }
+    .secondContainer video{
+        display: none;
+    }
+    .secondContainer{
+        width: 100%;
+        height: 790px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .secondContainerInfo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .secondContainerInfo h4{
+        text-align: center;
+    }
+    .secondContainerInfo p{
+        text-align: center;
+    }
+    .secondContainerInfo button{
+        margin-right: 0%;
+    }
+
+/*Tercer contenedor del index mobile*/    
+    .thirdContainerInfo p{
+        font-size: 28px;
+    }
+    .thirdContainerSubCont img{
+        width: 100px;
+        height: 100px;
+    }
+    .thirdContainerSubCont h4{
+        font-size: 20px;
+    }
+/*Cuarto contenedor del index mobile*/
+
+    .fourthContainerInfo{
+        flex-direction: column;
+    }
+    .infoCont{
+        padding-bottom: 5%;
+    }
+    .infoCont2{
+        padding-bottom: 5%;
+    }
+    .infoCont3{
+        padding-bottom: 5%;
+    }
+
+/*Quinto contenedor del index mobile*/
+    .h4Box{
+        top: 15%;
+        left: 32%;
+    }
+    .fifthContainerSubCont2{
+        flex-direction: column;
+        margin-top: -35%;
+    }
+    .fifthContainerBox{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .fifthContainerBox2{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .fifthContainerBox3{
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+    }
+
+    .fifthContainerBox h4{
+        top: 28%;
+        left: 35%;
+        font-size: 38px;
+    }
+    .fifthContainerBox2 h4{
+        top: 28%;
+        left: 30%;
+        font-size: 38px;
+    }
+    .fifthContainerBox3 h4{
+        top: 28%;
+        left: 12%;
+        font-size: 38px;
+    }
+/*Formulario del index mobile*/
+    .contactUsForm{
+        width: 50%;
+    }
+    
+    .inputText{
+        width: 90%;
+    }
+    #message{
+        width: 90%;
+    }
+
+/*Septimo contenedor del index mobile*/
+    .seventhContainer{
+        flex-direction: column;
+    }
+    .seventhSubCont1 h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:767px){
+    
+    /*Septimo container del index mobile*/
+    .seventhContainer{
+        display: none;
+    }
+    /*Quinto container del index mobile*/
+    .h4Box{
+        top: 15%;
+        left: 15%;
+    }
+    .fifthContainerBox h4{
+        top: 20%;
+        left: 32%;
+        font-size: 30px;
+    }
+    .fifthContainerBox2 h4{
+        top: 20%;
+        left: 28%;
+        font-size: 30px;
+    }
+    .fifthContainerBox3 h4{
+        top: 20%;
+        left: 8%;
+        font-size: 30px;
+    }
+
+/*Form del mobile*/
+
+    .contactUs{
+        flex-direction: column;
+    }
+    .contactUsInfo h4{
+        text-align: center;
+    }
+    .contactUsInfo h5{
+        text-align: center;
+        font-size: 35px;
+    }
+    .contactUsInfo ul{
+        display: none;
+    }
+    .contactUsInfo p{
+        display: none;
+    }
+    .contactUsForm{
+        width: 90%;
+        align-items: center;
+    }
+    .inputBtn{
+        margin-right: 0%;
+    }
+}
+@media screen and (max-width:480px){
+    #hero{
+        width: 100%;
+    }
+    .mainH1 h1{
+        font-size: 44px;
+    }.colored-heading::before {
+        font-size: 44px;
+    }
+/*tercer container del index mobile*/
+    .thirdContainerInfo p{
+        font-size: 20px;
+    }
+
+/*Quinto container del index mobile*/
+    .h4Box{
+        top: 30%;
+        left: 10%;
+    }
+
+
+/*Form del mobile*/
+
+    .contactUs{
+        flex-direction: column;
+    }
+    .contactUsInfo h4{
+        text-align: center;
+    }
+    .contactUsInfo h5{
+        text-align: center;
+        font-size: 35px;
+    }
+    .contactUsInfo ul{
+        display: none;
+    }
+    .contactUsInfo p{
+        display: none;
+    }
+    .contactUsForm{
+        width: 90%;
+        align-items: center;
+    }
+    .inputBtn{
+        margin-right: 0%;
+    }
+/*Septimo container del index mobile*/
+    .seventhContainer{
+        display: none;
+    }
+    .fifthContainerBox h4{
+        top: 20%;
+        left: 32%;
+        font-size: 30px;
+    }
+    .fifthContainerBox2 h4{
+        top: 20%;
+        left: 28%;
+        font-size: 30px;
+    }
+    .fifthContainerBox3 h4{
+        top: 20%;
+        left: 2%;
+        font-size: 30px;
+    }
+}
