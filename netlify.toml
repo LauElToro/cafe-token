@@ -4,3 +4,6 @@
 
 [build.environment]
   PHP_VERSION = "8.1"
+
+[build.lifecycle]
+  postinstall = "sudo apt-get update && sudo apt-get install -y php8.1-gmp"
